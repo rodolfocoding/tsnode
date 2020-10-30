@@ -2,7 +2,10 @@
   "name": "tsnode",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/rodolfocoding/tsnode.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodolfocoding/tsnode.git"
+  },
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/server.ts",
